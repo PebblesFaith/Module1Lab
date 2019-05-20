@@ -1,1 +1,1 @@
-In my Microsoft course 'Building Interactive Prototypes using JavaScrcipt (Dev 279x), Module 1 lab. I will apply some concepts, I have learned by writing JavaScript codes, in order to display the r… 
+In my Microsoft course 'Building Interactive Prototypes using JavaScrcipt (Dev 279x), Module 1 lab. I will apply some concepts, I have learned by writing JavaScript codes, in order to display the results in arithmetic operations on  my webpage.
