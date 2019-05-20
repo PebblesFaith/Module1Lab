@@ -3,6 +3,7 @@ body {
     background-color: rgb(122, 121, 110);
 }
 
+/* My id 'greeting-container,' margin dictates the size in the containter presentation on the webpage. */
 #greeting-container {
     display: flex;
     justify-content: center;
