@@ -1,0 +1,18 @@
+/* Add background color to the body of my lab calculator webpage. */
+body {
+    background-color: rgb(122, 121, 110);
+}
+
+#greeting-container {
+    display: flex;
+    justify-content: center;
+    height: 390px;   
+    flex-wrap: wrap;
+    /*align-content: space-between;*/
+    background-color: rgb(184, 169, 184);
+    border: 25px rgb(255, 255, 255) solid;
+    margin: 55px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
