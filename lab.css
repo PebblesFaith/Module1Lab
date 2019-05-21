@@ -1,78 +1,40 @@
-/* Add background color to the body of my lab calculator webpage. */
+/* Add background color to the body of my lab calculator webpage assignment. */
 body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(122, 121, 110);
 }
 
-/* I have created a class row 'greeting-container' column to store one (1)
- element into an individual flex container, in order to display my webpage. */
 .greeting-container {
     margin-top: 0px;  
     display: flex;
     flex-wrap: wrap;    
-    padding-top: 0px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-bottom: 0px;  
+    border-top: 50px  rgb(184, 169, 184) solid; 
+    border-left: 50px  rgb(184, 169, 184) solid; 
+    border-right: 50px  rgb(184, 169, 184) solid; 
+    border-bottom: 50px  rgb(184, 169, 184) solid; 
+    background-color: rgb(255, 255, 255);    
+    margin-top: 55px;     
+    
     align-items: center;
-    justify-content: center; 
-  }
-
-  /* Create one (1) id 'greeting-container1' column container inside a row
-     in order to places a title inside the '.greeting-containers' for my lab calculator 
-     webpage.*/
-
-  #greeting-container1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center;   
+}
+  
+  .greeting-container > div {
+    display: flex;    
     flex: 70%;
-    max-width: 70%;
-    margin-top: 55px;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-bottom: 0px;
+    max-width: 70%;    
     background-color: rgb(184, 169, 184);
     border: 25px rgb(255, 255, 255) solid;                               
     font-family: 'Book Antiqua', Times, serif; 
     font-style: italic;
-    font-size: 30px;
+    font-size: 16px;
     text-align: center; 
-    color: rgb(255, 255, 255);    
-  }
-
-    /* I have created a class row 'operand-container' column to store one (1)
-    element into an individual flex container, in order to display my webpage. */
-    .operand-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-color: rgb(122, 121, 110);
+    color: rgb(255, 255, 255); 
+    
     align-items: center;
     justify-content: center;
-  }
-
-    /* Create one (1) id 'operand-container' column container inside a row
-    in order to places two (2) paragraph inside the '.operand-containers' for my lab calculator 
-    webpage.*/
-
-    .operand-container > div {
-    width: 940px;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    border-top: 25px  rgb(184, 169, 184) solid; 
-    border-left: 25px  rgb(184, 169, 184) solid; 
-    border-right: 25px  rgb(184, 169, 184) solid; 
-    border-bottom: 25px  rgb(184, 169, 184) solid; 
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic;
-    font-size: 18px;
-    color: rgb(122, 121, 110);
-    text-align: center;     
-  }
-
-
-  
-
+}
 
 
 
