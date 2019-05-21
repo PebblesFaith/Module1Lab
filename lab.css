@@ -5,6 +5,7 @@ body {
     background-color: rgb(122, 121, 110);
 }
 
+/* Create row container to house one (1) individual  column. */ 
 .greeting-container {
     margin-top: 0px;  
     display: flex;
@@ -19,22 +20,71 @@ body {
     align-items: center;
     justify-content: center;   
 }
-  
+
+ /* Create one (1) column container inside rows in order to places four (4) section
+  inside the one (1) container.*/ 
   .greeting-container > div {
     display: flex;    
     flex: 70%;
     max-width: 70%;    
     background-color: rgb(184, 169, 184);
     border: 10px rgb(228, 227, 207) solid;                               
-    font-family: 'Book Antiqua', Times, serif; 
-    font-style: italic;
-    font-size: 16px;
+    font-family: 'Book Antiqua', Times, serif;     
+    font-size: 20px;    
     text-align: center; 
-    color: rgb(255, 255, 255); 
-    
+    color: rgb(255, 255, 255);     
     align-items: center;
     justify-content: center;
 }
+
+/* Create addition id for border size and font styles. */
+#addition {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);  
+}
+
+/* Create substraction id for border size and font styles. */
+#subtraction {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create multiplication id for border size and font styles. */
+#multiplication {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create division id for border size and font styles. */
+#division {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create modulus id for border size and font styles. */
+#modulus {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create p1 class for border font styles. */
+.p1 {
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
 
 
 
