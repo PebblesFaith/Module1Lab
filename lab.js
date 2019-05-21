@@ -15,21 +15,25 @@ var operandOne = parseInt(window.prompt("Please enter your first (1st) number:")
 
 var operandTwo = parseInt(window.prompt("Please enter your second (2nd) number:"));
 
-/* */
-
+/* Create varaible names (operand1 and operand2) to store and later display each number the
+   user has entered and assigned them to the apporpriate id elements.  */
 var operand1 = document.getElementById("operand-container1");
 operand1.innerHTML += operandOne;
 
 var operand2 = document.getElementById("operand-container2");
 operand2.innerHTML += operandTwo;
 
-/* */
+/* Create all arithmetic operations variables in 'total#' and store the results of
+   operandOne and operandTwo for later outputs. */
 
 var total1 = operandOne + operandTwo;
 var total2 = operandOne - operandTwo;
 var total3 = operandOne * operandTwo;
 var total4 = operandOne / operandTwo;
 var total5 = operandOne % operandTwo;
+
+/* Update each id elements outputs and [or] with texts, in order to display each
+   arithmetic operations variable onto the webpage. */
 
 /*var sum = document.getElementById("addition");
 sum.innerHTML += total1;*/
